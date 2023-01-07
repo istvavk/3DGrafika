@@ -168,9 +168,9 @@ int main()
 
     // nacrtaj trokute
     draw_triangle(-48, -10,  82, 29, -15,  44, 13,  34, 114,image, blue);
-    //raw_triangle_tex(-48, -10,  82, 29, -15,  44, 13,  34, 114,0,0,0,1,1,0,image,"text.tga");
-    //draw_triangle_tex_corrected(-48, -10,  82, 29, -15,  44, 13,  34, 114,0,0,0,1,1,0,image,"text.tga");
-    //raw_triangle_tex(-48, -10,  82, 29, -15,  44, 13,  34, 114,0,0,0,1,1,0,image,"image1.tga");
+    //raw_triangle_tex(-48, -10,  82, 29, -15,  44, 13,  34, 114,0,0,0,1,1,0,image,"text1.tga");
+    //draw_triangle_tex_corrected(-48, -10,  82, 29, -15,  44, 13,  34, 114,0,0,0,1,1,0,image,"image1.tga");
+    //raw_triangle_tex(-48, -10,  82, 29, -15,  44, 13,  34, 114,0,0,0,1,1,0,image,"image2.tga");
     //draw_triangle_tex_corrected(-48, -10,  82, 29, -15,  44, 13,  34, 114,0,0,0,1,1,0,image,"image2.tga");
     // spremi sliku
     image.flip_vertically();
