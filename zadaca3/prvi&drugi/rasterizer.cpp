@@ -132,7 +132,7 @@ int main() {
     // Nacrtaj crveni trokut
     draw_triangle_2d(image, 200, 200, 250, 250, 300, 200, red);
 
-    // Draw a red triangle with Gouraud shading
+    // nacrtaj crveni trokut s Gouraurd sjenčanjem
     draw_triangle_2d_gouraud(image, 200, 200, 250, 250, 300, 200, red, blue, green);
 
     // spremi sliku
