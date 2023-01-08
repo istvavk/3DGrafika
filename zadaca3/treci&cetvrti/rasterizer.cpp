@@ -57,10 +57,8 @@ void draw_triangle(float x0, float y0,float z0, float x1, float y1,float z1, flo
     }
 }
 
-void draw_triangle_tex(float x0, float y0, float z0, float u0, float v0,
-                       float x1, float y1, float z1, float u1, float v1,
-                       float x2, float y2, float z2, float u2, float v2,
-                       const char* file_path, TGAImage& image) {
+void draw_triangle_tex(float x0, float y0, float z0, float u0, float v0, float x1, float y1, float z1, float u1, float v1, float x2, float y2, float z2, 
+                       float u2, float v2, const char* file_path, TGAImage& image) {
     // Učitava teksturu s file patha
     TGAImage texture;
     texture.read_tga_file(file_path);
