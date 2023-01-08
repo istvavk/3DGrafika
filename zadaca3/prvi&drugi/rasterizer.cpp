@@ -51,7 +51,7 @@ void draw_triangle_2d(TGAImage& image, int x0, int y0, int x1, int y1, int x2, i
 
     // iteriramo kroz redove
     for (int y = y1; y <= y2; y++) {
-        // racuna x koordinate dvaju rubova trokuta za ovaj redak
+        // racuna x koordinate dvaju rubova trokuta za redak
         int xl = x1 + slope1 * (y - y1);
         int xr = x0 + slope2 * (y - y0);
 
@@ -87,7 +87,7 @@ void draw_triangle_2d_gouraud(TGAImage& image, int x0, int y0, int x1, int y1, i
 
     // interpoliramo boje duzinom prve polovice trokuta
     for (int y = y0; y <= y1; y++) {
-        // racuna x koordinate dvaju rubova trokuta za ovaj redak
+        // racuna x koordinate dvaju rubova trokuta za redak
         int xl = x0 + slope1 * (y - y0);
         int xr = x0 + slope2 * (y - y0);
 
@@ -107,7 +107,7 @@ void draw_triangle_2d_gouraud(TGAImage& image, int x0, int y0, int x1, int y1, i
 
     // interpoliramo boje duzinom druge polovice trokuta
     for (int y = y1; y <= y2; y++) {
-        // racuna x koordinate dvaju rubova trokuta za ovaj redak
+        // racuna x koordinate dvaju rubova trokuta za redak
         int xl = x1 + slope1 * (y - y1);
         int xr = x0 + slope2 * (y - y0);
 
